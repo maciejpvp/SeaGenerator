@@ -5,7 +5,7 @@ const isCodeSandbox =
 export default {
   root: "src/",
   publicDir: "../static/",
-  base: "SeaGenerator",
+  base: "/SeaGenerator",
   server: {
     host: true,
     open: !isCodeSandbox,
